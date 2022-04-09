@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.cryptocurrency-item {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-coin-type {
+  display: flex;
+  justify-content: flex-start;
+}
+.currency-logo {
+  height: 26px;
+  width: 25px;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+.currency-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+.value-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+.value {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 16px;
+}
+@media screen and (max-width: 576px) {
+  .currency-logo {
+    height: 15px;
+    width: 15px;
+  }
+  .currency-name {
+    font-size: 14px;
+  }
+  .value {
+    font-size: 12px;
+  }
+  .value-container {
+    width: 60%;
+  }
+}
